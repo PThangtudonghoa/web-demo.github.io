@@ -1,0 +1,119 @@
+
+@media (max-width: 890px) {
+    /* Header-Navbar */
+    .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        z-index: 3;
+        margin-bottom: 12px;
+    }
+    .nav{
+        display: none;
+    }
+    .body-container{
+        margin-top: 60px;
+    }
+    .header-search-icon{
+        width: 100px;
+        margin-left: 0;
+        margin-right: 12px;
+        display: none;
+    }
+    .fish-logo{
+        display: none;
+    }
+    .header-search-input-selection{
+        display: none;
+    }
+    .header-search-input-search{
+        justify-self: flex-start;
+    }
+    .header-search-input{
+        justify-content: flex-end;
+    }
+    .header-search-cart{
+        margin: 0;
+        margin-right: 24px;
+        margin-left: 18px;
+    }
+    .header-search-mobi{
+        display: block;
+        margin-right: 8px;
+    }
+    .header-search-input-search{
+        width:  42px;
+    }
+
+    /* Body */
+    .grid__colunn-2{
+        width: 100%;
+    }
+    .category{
+        display: none;
+    }
+    .supplies-page-controll{
+        display: none;
+    }
+    .grid__column-10{
+        width: 100%;
+    }
+    .supplies-controll h3{
+        display: none;
+    }
+    .supplies-controll{
+        overflow-x: auto;
+    }
+    .controll-sprice{
+        margin-right: 2px;
+    }
+    .supplies-controll::-webkit-scrollbar{
+        display: none;
+    }
+    .grid__row {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .grid__column-2-10{
+        width: 50%;
+    }
+    .product-item-name{
+        height: 60px;
+        -webkit-line-clamp: 3;
+        margin-bottom: 2px;
+    }
+    .product-item-price{
+        margin-top: 8px;
+    }
+    .product-item-active{
+        margin: 12px 8px;
+    }
+    /* Page-controll */
+    .page-direction{
+        width: 100%;
+    }
+    .page-direction-list{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .page-direction--mobi{
+        display: none;
+    }
+    .page-direction-item{
+        margin: 0 2px;
+    }
+    .grid__column-2-10-empty{
+        display: none;
+    }
+    .grid__column-2-10-mobi{
+        width: 100%;
+        text-align: center;
+    }
+    /* Footer */
+    .footer-img{
+        flex-direction: column;
+    }
+}
